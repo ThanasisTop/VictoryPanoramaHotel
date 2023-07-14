@@ -24,6 +24,14 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+    $("#div1").fadeIn();
+  
+});
+</script>
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 <body>
@@ -108,7 +116,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="slider_text text-center">
+                            <div id="div1" class="slider_text text-center fadein">
                                 <h3>Victory Panorama Hotel</h3>
                                 <p>Unlock to enjoy the view of Kallithea</p>
                             </div>
@@ -157,9 +165,10 @@
     <!-- slider_area_end -->
 
     <!-- about_area_start -->
+	
     <div class="about_area">
         <div class="container">
-            <div class="row">
+            <div class="row fadeinleft">
                 <div class="col-xl-5 col-lg-5">
                     <div class="about_info">
                         <div class="section_title mb-20px">
@@ -245,7 +254,7 @@
     <!-- </div> -->
 	
 	<div class="features_room">
-        <div class="container">
+        <div class="container fadeinleft">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-100">
@@ -258,7 +267,7 @@
                 </div>
             </div>
         </div>
-        <div class="rooms_here">
+        <div class="rooms_here fadeinleft">
             <div class="single_rooms">
                 <div class="room_thumb">
                     <img src="img/rooms/room_2.jpg" alt="">
@@ -370,8 +379,8 @@
                         <span>What are they say for us</span>
                         <h3>Testimonials</h3>
                     </div>
-                </div>
-		<div class="col-sm-12">
+        </div>
+			<div class="col-sm-12">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Carousel indicators -->
 				<ol class="carousel-indicators">
@@ -493,7 +502,7 @@
     <!-- forQuery_end-->
 
     <!-- video_area_start -->
-    <div class="video_area video_bg overlay">
+    <div class="video_area video_bg overlay fadeinleft">
         <div class="video_area_inner text-center">
             <span>Viktory Panorama Pool View</span>
             <h3>Relax and Enjoy your <br>
@@ -508,7 +517,7 @@
     <!-- about_area_start -->
     <div class="about_area">
         <div class="container">
-            <div class="row">
+            <div class="row fadeinleft">
                 <div class="col-xl-7 col-lg-7">
                     <div class="about_thumb2 d-flex">
                         <div class="img_1">
@@ -838,7 +847,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         });
     </script>
 
-
+	
 
 </body>
 
