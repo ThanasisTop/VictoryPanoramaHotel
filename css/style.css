@@ -4166,7 +4166,13 @@ h1,h2,h3,h4,h5,h6{
     top: .5rem;
 }
 
+.navigation__button, .navigation__icon::before {
+    top: -.1rem;
+}
 
+.navigation__button, .navigation__icon::after {
+    top: .1rem;
+}
 
 .navigation__checkbox:checked+.navigation__button .navigation__icon {
     background-color: transparent;
