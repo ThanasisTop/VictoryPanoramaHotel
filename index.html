@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<!------ Include the above in your HEAD tag ---------->
+
 <script>
 $(document).ready(function(){
   
@@ -58,7 +62,7 @@ $(document).ready(function(){
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2">
-                            <div>
+                            <div class="col-sm-10 col-lg-10">
                                 <a class="logo-img" href="index.html">
                                     <img src="img/indexlogo.png" alt="">
                                 </a>
@@ -69,7 +73,9 @@ $(document).ready(function(){
                                    <img src="img/email.png" alt="pin" height="30" width="30">
                                 </a>
 								<a class="genric-btn info d-lg-none" href="https://www.booking.com/" target="blank">Book now!</a>
+								
                             </div>
+							
                         </div>
                         <div class="col-xl-5 col-lg-4 d-none d-lg-block">
                             <div class="book_room">
@@ -98,15 +104,42 @@ $(document).ready(function(){
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none">
+                            <!-- <div class="mobile_menu d-lg-none"> -->
 								
-							</div>
+							<!-- </div> -->
                         </div>
+						<div class="navigation">
+							<input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+							<label for="nav-toggle" class="navigation__button">
+								<span class="navigation__icon" aria-label="toggle navigation menu"></span>
+							</label>
+							<div class="navigation__background"></div>
+
+							<nav class="navigation__nav" role="navigation">
+								<ul class="navigation__list">
+								<li class="navigation__item">
+									<a href="index.html" class="navigation__link">Home</a>
+								</li>
+								<li class="navigation__item">
+									<a href="rooms.html" class="navigation__link">Rooms</a>
+								</li>
+								<li class="navigation__item">
+									<a href="contact.html" class="navigation__link">Contact</a>
+								</li>
+								<li class="navigation__item">
+									<a href="about.html" class="navigation__link">About</a>
+								</li>
+								</ul>
+							</nav>
+						</div>
                     </div>
+					
                 </div>
             </div>
         </div>
+		
     </header>
+	
     <!-- header-end -->
 
     <!-- slider_area_start -->
@@ -130,9 +163,8 @@ $(document).ready(function(){
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <!-- <h3>Life is Beautiful</h3> -->
-                                <p>Unlock to enjoy the view of Kallithea</p> 
-                                <!-- <p>Unlock to enjoy the view of Kallithea</p> -->
+                                <h3>Life is Beautiful</h3>
+                                <p>Unlock to enjoy the view of Kallithea</p>
                             </div>
                         </div>
                     </div>
@@ -143,8 +175,9 @@ $(document).ready(function(){
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
+                                <p>Welcome to</p>
                                 <h3>Victory Panorama Hotel</h3>
-                                <p>Unlock to enjoy the view of Kallithea</p>
+                                <!-- <p>Unlock to enjoy the view of Kallithea</p> -->
                             </div>
                         </div>
                     </div>
