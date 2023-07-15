@@ -383,8 +383,14 @@ $(document).ready(function () {
 });
 
 
-
-
+$(".navigation__checkbox").click(function(){
+	if($(".carousel-indicators").is(":visible")){
+		$(".carousel-indicators").hide("slow");
+	}
+	else
+		$(".carousel-indicators").show("slow");
+  
+});
 
 
 })(jQuery);	
