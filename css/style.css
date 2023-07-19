@@ -876,6 +876,12 @@ h3{
 .about_bg_1{
     background-image:url(../img/banner/about_banner.png)
 }
+.about_bg_2{
+    background-image:url(../img/banner/banner.png)
+}
+.about_bg_3{
+    background-image:url(../img/banner/banner3.jpg)
+}
 .about_info_area{
     margin-top:50px
 }
